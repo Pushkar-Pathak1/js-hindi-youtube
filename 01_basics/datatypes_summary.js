@@ -33,3 +33,22 @@ console.log(typeof heros);
 
 
 
+//__________________---------------------------------------------------------------
+
+//stack, heap
+
+let myname="pushkar"
+let myanothername=myname
+myanothername="np";
+console.log(myname)// not change
+console.log(myanothername)
+
+let userone={
+    email: "lfmcslkff@gmail.com",
+    upi: "lksjdvfoi"
+}
+
+let usertwo=userone;
+usertwo.email="ojfl@gmail.com";
+console.log(userone.email) //changed because non primitive
+console.log(usertwo.email)
