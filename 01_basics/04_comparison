@@ -1,0 +1,16 @@
+console.log(2>1)
+console.log(2>=1)
+console.log(2<1)
+console.log(2!=1)
+console.log(2==1)
+
+
+console.log("2">1)
+console.log("02">1)
+console.log(null>0)
+console.log(null==0) //here null is not converted to zero because it is a equality operator
+console.log(null>=0) //here null is converted to zero because it is a comparison operator
+
+
+// === it checks datatypes also ,,it doesnot let a string convert to number for comparison like that
+console.log("2" === 2)
