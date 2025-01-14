@@ -46,3 +46,27 @@ user[1].email
 console.log(tinderUser.hasOwnProperty('isLoggedIn'))
 
 console.log(tinderUser.hasOwnProperty('isLogged'))
+
+const course={
+    coursename: "js",
+    price: "999",
+    courseinstructor: "hitesh",
+}
+
+const {courseinstructor}=course //extract kar leta h dot ya phir square bracket use krke likhne ki jarurat nhi hoti h,, known as de structure
+console.log(courseinstructor)
+console.log(course.courseinstructor) //asse bhi ans abhi bhi aayega 
+const {courseinstructor: instructor}=course //known as de structure 
+console.log(instructor)
+
+//{
+ //   "name": "pijk",
+  //  "price": "free", // api asse milti h
+   // "coursename": "js",
+//}
+
+//[
+  //  {},//and asse bhi
+   // {},
+
+//]
