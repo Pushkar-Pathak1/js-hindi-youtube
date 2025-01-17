@@ -32,3 +32,9 @@ const myCoding=[
 myCoding.forEach((item)=>{
     console.log(item.name,item.file)
 })
+
+
+//const value=myCoding.forEach((item)=>{
+   // return item //for each loop does not return any value
+//})
+//console.log(value)
